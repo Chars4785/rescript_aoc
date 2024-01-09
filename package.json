@@ -15,6 +15,5 @@
     "res:watch": "rescript build -w",
     "res:clean": "rescript clean",
     "watch": "concurrently -n rescript,node \"yarn res:watch\" \"node --watch ./src/Day2.cjs\""
-    
   }
 }

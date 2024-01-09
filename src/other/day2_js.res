@@ -1,32 +1,3 @@
-// open RescriptCore
-
-// let input = "/input/day2"->Utils.makeInput
-
-// type game = {
-//   id: int,
-//   red: array<int>,
-//   green: array<int>,
-//   blue: array<int>,
-// }
-
-// type game2 = {
-//   id: int,
-//   canGame: array<bool>,
-// }
-// // let a = "Game 1: 13 red, 18 green; 5 green, 3 red, 5 blue; 5 green, 9 red, 6 blue; 3 blue, 3 green"
-// // Js.log(Js.String.splitByRe(%re("r'Game (\d+)'"),a))
-
-
-// // let _ = input->Array.forEach( game => {
-// //   Js.log(game)
-// //   // gmae
-// // })
-// let a = "Game 1: 13 red, 18 green; 5 green, 3 red, 5 blue; 5 green, 9 red, 6 blue; 3 blue, 3 green"
-
-// a->Js.Array.map( st =>{
-//   Js.log(st)
-// })
-
 open RescriptCore
 
 let input = "/input/day2"->Utils.makeInput
