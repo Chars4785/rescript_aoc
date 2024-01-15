@@ -13,7 +13,6 @@ let dict = Js.Dict.fromList(list{
 
 let passport = ["byr", "iyr", "eyr", "hgt", "hcl", "ecl","pid"]
 let a = ref(0);
-input->Js.Array.push("")
 let _ =
   input->Array.forEach(t => {
     switch t == "" {
